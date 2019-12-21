@@ -1,0 +1,416 @@
+
+/*网页版心*/
+.w {
+	width: 1190px;
+	margin: 0 auto;
+}
+
+/*初始化*/
+a {
+	text-decoration: none;
+}
+a:hover {
+	color: #f10215!important;
+}
+
+.jd_color {
+	color: #f10215!important;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+div, ul, li, i, a, img, h1, span, input, button ,p ,h5,img,h1,h2,h3,h4{
+	margin: 0;
+	padding: 0;
+}
+
+input ,button{
+	border: none;
+	outline: none;
+}
+
+ul ,li {
+	list-style: none;
+}
+
+body {
+	background-color: #f6f6f6;
+}
+/*字体图标声明字体*/
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?1x1j55');
+  src:  url('../fonts/icomoon.eot?1x1j55#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?1x1j55') format('truetype'),
+    url('../fonts/icomoon.woff?1x1j55') format('woff'),
+    url('../fonts/icomoon.svg?1x1j55#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*字体图标*/
+.shortcut i {
+	font-family: icomoon;
+	font-size: 12px;
+
+	font-style: normal;
+	font-weight: normal;
+	line-height: 27px;
+
+}
+.search i {
+	font-family: icomoon;
+	font-size: 20px;
+	color: #fff;
+	font-style: normal;
+	font-weight: normal;
+	
+}
+
+/*头部部分开始*/
+.header {
+	background-color: rgb(229,57,20);
+	width: 1349px;
+	height: 80px;
+	
+}
+.header div {
+	position: relative;
+
+}
+
+.header .guanbi {
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	line-height: 16px;
+	position: absolute;
+	top: 5px;
+	right: 0;
+	font-size: 25px;
+	font-weight: normal;
+	background-color: rgb(167,45,25);
+}
+.guanbi a {
+	color: rgba(223,106,85,0.7);
+}
+/*头部部分结束*/
+
+/*小导航栏开始*/
+
+.shortcut {
+	width: 1349px;
+	height: 30px;
+	background-color: #e3e4e5;
+}
+
+.city_info li {
+	padding: 0 7px; 
+	/*float: left;*/
+}
+
+.jd_info li {
+	float: left;
+	margin-right: 7px; 
+	margin-left: 7px; 
+}
+.jd_info li a {
+	float: left;
+	font-size: 12px;
+	line-height: 31px;
+	color: #999;
+}
+.i_style {
+	color: #999;
+}
+
+.shortcut .city {
+	font-size: 12px;
+	line-height: 30px;
+	color: #999;
+
+}
+
+.space {
+	width: 1px;
+	height: 10px;
+	background-color: #ccc;
+	margin: 11px 5px 0;
+}
+/*小导航栏结束
+
+/*搜索部分*/
+.search {
+	height: 141px;
+	background-color: rgb(255,255,255);
+	
+}
+
+.sea_header {
+	height: 140px;
+	/*background-color: pink;*/
+	position: relative;
+}
+
+.sea_header div {
+	position: absolute;
+}
+
+/*logo部分*/
+.sea_header .logo {
+	top: 10px;
+	left: 0;
+	/*box-shadow: 0 3px 10px rgba(0,0,0,0.3);*/
+}
+/*二维码部分*/
+.sea_header .erweima {
+	border: 1px solid rgb(246,246,246);
+	top: 0;
+	right: 0;
+	padding: 5px;
+	/*box-shadow: 5px 5px 3px 4px rgba(255,255,0,0.4),*/
+
+	box-shadow: 5px 4px 10px 16px rgba(255,255,255, 0.3) inset,
+			0px 0px 7px rgba(0,0,0,0.3);        
+}
+/*搜索框部分*/
+.search_frame {
+	height: 35px;
+	width: 550px;
+	position: absolute;
+	left: 260px;
+	top: 25px;
+	box-sizing: border-box;
+}
+.search_frame input {
+	width: 470px;
+	height: 33px;
+	font-size: 12px;
+	border: 1px solid #f10215;
+	padding-left: 12px;
+	float: left;
+
+}
+.search_frame button {
+	width: 60px;
+	height: 35px;
+	background-color: #f10215;
+	float: left;
+	border: 0;
+
+}
+
+/*购物车部分*/
+.shop_car {
+	width: 130px;
+	height: 33px;
+	border: 1px solid #ccc;
+	top: 25px;
+	right: 230px;
+	text-align: center;
+	background-color: rgb(255,255,255);
+}
+
+.shop_car a {
+	line-height: 35px;
+	font-size: 12px;
+	color: #f10215;
+}
+.shop_car a i {
+	font-size: 16px;
+	color: #f10215;
+	padding-right: 13px
+}
+.shop_car a span {
+	width: 18px;
+	height: 14px;
+	font-size: 12px;
+	color: rgb(255,255,255);
+	position: absolute;
+	background-color: #f10215;
+	top: 1px;
+	right: 80px;
+	border-radius: 50% 50%;
+	line-height: 14px;
+}
+/*关键词部分*/
+.hot_word {
+	position: absolute;
+	top: 66px;
+	left: 258px;
+	
+}
+.hot_word a {
+	font-size: 12px;
+	color: #999;
+	padding-right: 6px;
+}
+/*底部导航栏部分*/
+.nav_bottom {
+	/*width: 772px;*/
+	height: 44px;
+	position: absolute;
+	bottom: -4px;
+	left: 200px;
+	/*background-color: pink;*/
+	text-align: center;
+	line-height: 44px;
+}
+.nav_bottom li {
+	float: left;
+	font-size: 15px;
+	/*font-weight: 700;*/
+	z-index: 20;
+	margin: 0 15px;
+}
+.nav_bottom li a {
+	color: #333;
+}
+/*搜索部分结束*/
+
+/*页面底部开始*/
+/*多快好省部分*/
+.dkhs_box {
+	margin-top: 10px;
+	/*height: 103px;*/
+	padding: 30px 0;
+	overflow: hidden;
+	border-bottom: 1px solid #ccc;
+}
+.dkhs ul {
+	height: 42px;
+}
+.dkhs ul li {
+	/*margin-top: 30px;
+	background-color: red;*/
+	width: 297px;
+	float: left;
+}
+.dkhs div {
+	width: 180px;
+	padding-left: 45px;
+	margin: 0 auto;
+	position: relative;
+	/*background-image: url(../images/logo.png);*/
+}
+.dkhs div h5 {
+	margin: 0;
+	width: 36px;
+	height: 42px;
+	position: absolute;
+	/*background: url('images/ico.png') no-repeat 0 0;*/
+	background-image: url(../images/ico.png);
+	background-repeat: no-repeat;
+	left: 0;
+	top: 0;
+}
+.dkhs  .duo {
+	background-position: 0 0;
+}
+.dkhs .kuai {
+	background-position: 0 -42px;
+}
+.dkhs .hao {
+	background-position: 0 -86px;
+}
+.dkhs .sheng {
+	background-position: 0 -128px;
+}
+.dkhs div p {
+	height: 42px;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 42px;
+	color: #444;
+}
+/*多快好省部分结束*/
+/*页面帮助部分开始*/
+.mod_help {
+	padding: 30px 0;
+
+}
+.middle_box {
+	margin: 0 auto;
+	height: 160px;
+	/*background-color: #ccc;*/
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 30px;
+}
+.menu_box {
+	float: left;
+	width: 198px;
+	line-height: 22px;
+}
+.menu_box h5 {
+	color: #666;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+.menu_box a {
+	font-size: 12px;
+	color: #666;
+}
+.menu_box p {
+	font-size: 12px;
+	color: #666;
+}
+.menu_box .text_r {
+	text-align: right;
+}
+/*页面帮助部分结束*/
+
+/*copyright部分开始*/
+.cpy_box {
+	margin-top: -10px;
+
+	text-align: center;
+}
+.cpy_box a {
+	font-size: 12px;
+	color: #666;
+}
+.fengexian {
+	color: #ccc;
+	margin: 0 5px;
+}
+.cpy_link {
+	margin-bottom: 15px;
+}
+
+.cpy_info {
+	font-size: 12px;
+	color: #999;
+	line-height: 20px;
+}
+.cpy_info a {
+	font-size: 12px;
+	color: #999;
+	line-height: 20px;
+}
+
+.anquan {
+	margin: 20px auto;
+	
+	overflow: hidden;
+}
+.anquan a {
+	color: #666;
+	vertical-align: top;
+}
+.anquan div {
+	float: left;
+	width: 120px;
+	height: 40px;
+	padding: 0 15px;
+	margin-left: 70px;
+}
+/*copyright部分结束*/
+
+
+/*页面底部结束*/
